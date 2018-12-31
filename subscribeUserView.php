@@ -113,7 +113,7 @@
 
 
 			<div class="center-align">
-				<input type="submit" value="CONTINUEZ" class="waves-effect waves-light btn-large"/>
+				<input type="submit" value="CONTINUEZ" class="waves-effect waves-light btn"/>
 				<p>
 					
 				</p>
