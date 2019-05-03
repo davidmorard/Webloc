@@ -1,13 +1,13 @@
-<footer class="page-footer">
+<footer class="page-footer  brown darken-1">
 
     <div class="container">
 
         <div class="row">
             <div class="col l6 s12">
-                <h5 class="white-text">
+                <h5 class="white-text flow-text">
                     Notre service
                 </h5>
-                <p class="grey-text text-lighten-4">
+                <p class="grey-text text-lighten-4 flow-text">
                     <p>
                         Une app qui simplifie la location de courte durée.
                     </p>
@@ -34,12 +34,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="grey-text text-lighten-3" href="subscribeUserView.php">
-                            Incrivez-vous
-                        </a>
-                    </li>
-                    <li>
-                        <a class="grey-text text-lighten-3" href="mailto:hello@web-loc.com">Contactez-nous
+                        <a class="grey-text text-lighten-3" href="mailto:hello@dmsd.biz">Contactez-nous
                         </a>
                     </li>
                 </ul>
@@ -50,7 +45,7 @@
 
     <div class="footer-copyright">
         <div class="container">
-            © 2018 Copyright Webloc
+            © 2019 Copyright Webloc
             <a class="grey-text text-lighten-4 right" href="#!">Conditions d'utilisation</a>
         </div>
     </div>

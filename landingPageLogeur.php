@@ -2,6 +2,10 @@
 
 <?php ob_start(); ?>
 
+
+<!-- En-tête-->
+<?php require('header.php');?>
+
 <div class="center-align">
 	<div class="hide-on-med-and-up">
 		<img class="responsive-img" src="images/export-xd/Groupe_1.png">
@@ -11,30 +15,34 @@
 	</div>
 </div>
 
-<div class="container">
+<div>
 
-	<div class="col s12">
-		<div class="card-panel z-depth-2">
-			<div class="row valign-wrapper">
-				<div class="col s2">
-					<img src="images/good-job-90X90.jpeg" class="circle responsive-img">
-				</div>
-				<div class="col s10">
-					<span class="black-test flow-text">	
-						<h4>
-							Gérez simplement vos locations
-						</h4>
-					</span>
+	<div class="row">
+		<div class="col s12">
+			<div class="card-panel z-depth-2">
+				<div class="row valign-wrapper">
+					<div class="col s2">
+						<img src="images/good-job-90X90.jpeg" class="circle responsive-img">
+					</div>
+					<div class="col s10">
+						<span class="black-text flow-text">	
+							<h4>
+								Gérez simplement vos locations
+							</h4>
+						</span>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 
 	<div class="center-align">
-		<a href="https://morard.typeform.com/to/tAHExs" target="_blank" class="waves-effect waves-light btn-large light-blue darken-1">inscrivez-vous</a>
+		<a href="https://morard.typeform.com/to/tAHExs" target="_blank" class="waves-effect waves-light btn-large light-blue accent-1 black-text">inscrivez-vous</a>
 	</div>
 
-	<p></p>
+	<p>
+		
+	</p>
 
 	<div class="row">
 
@@ -44,9 +52,9 @@
 					<div class="center-align">
 						<i class="material-icons medium">access_time</i>
 					</div>
-						<p class="flow-text">
-							Vous n’avez pas le temps de gérer vos locations d’hébergement.
-						</p>
+					<p class="flow-text">
+						Vous n’avez pas le temps de gérer vos locations d’hébergement.
+					</p>
 				</div>	
 			</div>
 		</div>
@@ -89,8 +97,15 @@
 
 
 
-<!-- intégrer le code html qui se situe dans <body> -->
 
+
+<!-- intégrer le code html qui se situe dans <body> -->
+	<!-- Le footer -->
+	<?php require('footer.php');?>
+
+
+	<!--JavaScript at end of body for optimized loading-->
+	<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
 
 	<?php $content = ob_get_clean(); ?>
 
